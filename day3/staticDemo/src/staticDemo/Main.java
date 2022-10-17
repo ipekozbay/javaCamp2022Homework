@@ -3,6 +3,7 @@ package staticDemo;
 public class Main {
 
 	public static void main(String[] args) {
+			
 		ProductManager productManager = new ProductManager();
 		Product product = new Product();
 		
@@ -11,6 +12,11 @@ public class Main {
 		productManager.add(product);
 		
 		DatabaseHelper.Crud.create();
+
+	
+	
 	}
 
 }
+
+
